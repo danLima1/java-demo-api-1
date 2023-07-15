@@ -1,4 +1,4 @@
-package net.luferat.java.demoapi1.frontendeiros.comments;
+package net.dn.java.demoapi1.frontendeiros.comments;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

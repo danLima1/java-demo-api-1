@@ -1,4 +1,4 @@
-package net.luferat.java.demoapi1.topicos;
+package net.dn.java.demoapi1.topicos;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

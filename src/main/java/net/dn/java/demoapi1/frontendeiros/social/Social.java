@@ -1,4 +1,4 @@
-package net.luferat.java.demoapi1.frontendeiros.social;
+package net.dn.java.demoapi1.frontendeiros.social;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

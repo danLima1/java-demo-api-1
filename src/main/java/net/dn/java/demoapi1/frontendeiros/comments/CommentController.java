@@ -1,4 +1,4 @@
-package net.luferat.java.demoapi1.frontendeiros.comments;
+package net.dn.java.demoapi1.frontendeiros.comments;
 
 import java.util.List;
 

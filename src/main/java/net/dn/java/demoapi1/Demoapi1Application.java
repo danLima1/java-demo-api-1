@@ -1,4 +1,4 @@
-package net.luferat.java.demoapi1;
+package net.dn.java.demoapi1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
