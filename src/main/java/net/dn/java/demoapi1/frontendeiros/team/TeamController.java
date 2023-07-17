@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-
 @CrossOrigin
 @RestController
 @RequestMapping("/users")
@@ -21,13 +19,9 @@ public class TeamController {
 
 	@GetMapping(path = "/{id}")
 	public Team getUser(@PathVariable Long id){
-
-		// Se o registro com o Id existe.
 		if (repository.existsById(id)) {
 			return repository.findById(id).get();
 		}
-
-		// Se o registro não existe.
 		return null;
 
 	}
