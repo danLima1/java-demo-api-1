@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -24,8 +25,8 @@ public class MensagensController {
 		return mensagensRepository.conversa(uId1, uId2);
 	}
 	
-	@GetMapping("/{mens}/met/var/")
-	public List<Mensagens> getLikeMens(@PathVariable String mens){
+	@GetMapping(path = "/find")
+	public List<Mensagens> getLikeMens(@RequestParam("q") String mens){
 		return mensagensRepository.sendPPalavra(mens);
 	}
 	
